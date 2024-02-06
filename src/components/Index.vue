@@ -2,6 +2,8 @@
     <div id="app">
       <head>
 
+
+
         <link rel="icon" href="../assets/IconDenise.png">
 
       </head>
@@ -10,13 +12,11 @@
         <header>
 			<nav
 				class="navbar navbar-expand-md navbar-light fixed-top navbar-transparent" 
-				data-aos="fade-down"
-				data-aos-offset="0"
-				data-aos-duration="800"
+			
 			>
 				<div class="container">
 					<a href="index.html">
-						<img class="ml-3 mt-1" src="images/Logo-Edson.svg" width="225" />
+						<img class="ml-3 mt-1" src="../assets/IconDenise.png" width="225" />
 					</a>
 
 					<button
@@ -55,6 +55,7 @@
 
       </body>
     </div>
+
 </template>
 
 <script>
@@ -66,53 +67,62 @@ export default {
 </script>
 
 <style scoped>
-#portfolio {
-	position: relative;
-	height: 800px;
-	margin-bottom: 20px;
+
+html,
+body {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
-.background-image {
-	background-color: rgba(0, 0, 0, 0.5);
-	height: 100vh;
-	background-image: url("../assets/bolodepote.png");
-	background-size: cover;
-	background-position: center;
-
-	margin-top: -50px;
+body {
+	font-family: Arial, sans-serif;
+	box-sizing: unset;
 }
 
-.content {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
+
+/* .navbar-collapse {
+	display: none;
+} */
+
+.navbar-collapse.show {
+	display: block;
+}
+
+nav.navbar-transparent {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
 	color: white;
+	transition: 0.3s;
+
 }
 
-.portfolio-title1 {
-	font-size: 18px;
-	margin-bottom: 15px;
-	font-weight: 700;
-	color: #f6f6f6;
-	letter-spacing: -1px;
+.navbar-light .navbar-nav .nav-contact {
+	color: #9feeaf;
 }
 
-.portfolio-title2 {
-	font-size: 39px;
-	margin-bottom: 15px;
-	font-weight: 700;
-	color: #f6f6f6;
-	letter-spacing: -0.5px;
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #d3843d;
+	transform: scale(1.1);
 }
 
-.portfolio-title3 {
-	font-size: 19px;
-	margin-bottom: 10px;
-	font-weight: lighter;
-	color: #f6f6f6;
-	letter-spacing: -0.3px;
+.navbar-light .navbar-nav .nav-contact:hover {
+	color: #1ad03f;
+	transition: 0.3s;
+	transform: scale(1.05);
+}
+
+.navbar-light .navbar-toggler {
+	color: rgba(255, 255, 255, 0.5);
+	border-color: rgba(255, 255, 255, 0.5);
+}
+
+.division {
+	width: 1px;
+	background: white;
+	margin: 12px 30px;
 }
 
 </style>
