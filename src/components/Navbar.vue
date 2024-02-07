@@ -5,6 +5,10 @@
       </head>
       <body> 
 
+		<div class="text-top-header">
+			<a>FAÇA AGORA MESMO SEU <strong>PEDIDO ONLINE</strong></a>
+		</div>
+
 		<a href="index.html">
 			<img class="denise-icon" src="../assets/IconDenise.png" width="225" />
 		</a>
@@ -98,8 +102,16 @@ body {
 }
 
 body {
+	background-color: #fff0e8;
     font-family: Arial, sans-serif;
     box-sizing: unset;
+}
+
+.text-top-header {
+	text-align: center;
+	background-color: #810947;
+	color: white;
+	padding: 2px;
 }
 
 .denise-icon {
@@ -112,6 +124,7 @@ body {
 
 .navbar {
     width: 100%;
+	background-color: white;
 }
 
 .navbar-collapse {
