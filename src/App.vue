@@ -1,14 +1,17 @@
 <template>
-  <Index/>
+  <Navbar/>
+  <Withdrawal/>
 </template>
 
 <script>
-import Index from './components/Index.vue'
+import Navbar from './components/Navbar.vue'
+import Withdrawal from './components/Withdrawal.vue';
 
 export default {
   name: 'App',
   components: {
-    Index
+    Navbar,
+    Withdrawal,
   }
 }
 </script>
