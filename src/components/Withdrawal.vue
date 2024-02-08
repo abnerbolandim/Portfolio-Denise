@@ -46,16 +46,20 @@ export default {
     color: #810947;
 }
 
-.btn{
+.btn {
     color: white;
     background-color: #810947;
     shape-outside: none;
-    
+    transform: scale(1);
+    transition: transform 0.3s ease; 
 }
-.btn:hover{
+
+.btn:hover {
     color: rgb(222, 196, 229);
     background-color: #811a4f;
     shape-outside: none;
-    
+    transform: scale(1.05);
 }
+
+
 </style>
