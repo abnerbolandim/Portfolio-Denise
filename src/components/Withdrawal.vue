@@ -42,7 +42,7 @@ export default {
 .card-text{
     font-weight: 600;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
     color: #810947;
 }
 
@@ -58,7 +58,7 @@ export default {
     color: rgb(222, 196, 229);
     background-color: #811a4f;
     shape-outside: none;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 
