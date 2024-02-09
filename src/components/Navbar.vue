@@ -1,7 +1,7 @@
 <template>
     <div id="app">
       <head>
-        <link rel="icon" href="../assets/IconDenise.png">
+        <link rel="icon" href="../assets/IconDeniseBlack.png">
       </head>
       <body> 
 
@@ -10,7 +10,7 @@
 		</div>
 
 		<a href="index.html">
-			<img class="denise-icon" src="../assets/IconDenise.png" width="225" />
+			<img class="denise-icon" src="../assets/IconDeniseBlack.png" width="225" />
 		</a>
 
 		<header class="d-flex">
