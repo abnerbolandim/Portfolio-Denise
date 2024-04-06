@@ -3,7 +3,7 @@
         <body>
             <section>
                 <div class="categories-title">
-                    <span >Categorias</span>
+                    <span >NOSSAS DELÍCIAS</span>
                 </div>
             </section>
         </body>
