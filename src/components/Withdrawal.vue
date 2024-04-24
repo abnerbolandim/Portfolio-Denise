@@ -29,11 +29,15 @@ export default {
     font-family: Arial, sans-serif;
     justify-content: center;
     padding: 25px;
-    background-color: #810947;
+    background-color: #d8557b;
+}
+
+.card-body{
+    background-color: #fbf2f2;
 }
 
 .card-title{
-    font-weight: 500;
+    font-weight: bold;
     padding-top: 20px;
     font-size: 30px;
     color: #810947;
