@@ -6,27 +6,27 @@
                     <span >DESTAQUES</span>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-10">
+                    <div class="col-md-4 col-10">
                         <div class="card" style="">
-                        <img src="../assets/IconDeniseBlack.png" class="card-img-top" alt="...">
+                        <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Sabor Morango - 2€</p>
+                                <p class="card-text">Sabor Morango<br><span>€ 2.00</span></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-10">
+                    <div class="col-md-4 col-10">
                         <div class="card" style="">
-                        <img src="../assets/IconDeniseBlack.png" class="card-img-top" alt="...">
+                        <img src="../assets/SalgadosCard.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Caixa c/ Salgadinhos - 3€</p>
+                                <p class="card-text">Caixa c/ Salgadinhos<br><span>€ 3.00</span></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-10">
+                    <div class="col-md-4 col-10">
                         <div class="card" style="">
-                        <img src="../assets/IconDeniseBlack.png" class="card-img-top" alt="...">
+                        <img src="../assets/BoloCard02.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Sabor Paçoca - 2€</p>
+                                <p class="card-text">Sabor Paçoca<br><span>€ 2.00</span></p>
                             </div>
                         </div>
                     </div>
@@ -52,11 +52,22 @@ export default {
     background-color: white;
 }
 
+body{
+    font-family: Arial, sans-serif;
+    box-sizing: unset;
+}
+
 .categories-title{
     text-align: center;
     color: #810947;
     font-size: 30px;
     font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.row {
+    justify-content: center;
 }
 
 .card{
@@ -64,16 +75,38 @@ export default {
     margin: 20px;
 }
 
-.card img {
-	max-width: 100%;
+.card-img-top {
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
 }
 
 .card-text {
+    color: #810947;
     text-align: center;
+    font-weight: 600;
 	font-size: 17px;
-	margin-top: 15px;
+	margin-top: 5px;
 	margin-left: 10px;
 	margin-right: 10px;
+    transition: 0.5s;
+}
+
+.card-text span{
+    color: black;
+    font-weight: 800;
+}
+
+@media (min-width: 992px) {
+	.row {
+        margin-right: calc(2.5* var(--bs-gutter-x));
+        margin-left: calc(2.5* var(--bs-gutter-x));
+	}
 }
 
 </style>
