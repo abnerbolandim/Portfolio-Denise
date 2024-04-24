@@ -32,6 +32,11 @@ export default {
     background-color: #d8557b;
 }
 
+body{
+        font-family: Arial, sans-serif;
+    box-sizing: unset;
+}
+
 .card-body{
     background-color: #fbf2f2;
 }
