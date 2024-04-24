@@ -23,31 +23,31 @@
 					<div class="ml-md-auto navbar-collapse collapse" id="nav-principal">
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<a href="index.html" class="nav-link">Home</a>
+								<a href="index.html" class="nav-link">INÍCIO</a>
 							</li>
 
 							<li class="nav-item division"></li>
 
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-									Meus Trabalhos
+									PRODUTOS
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<li><a class="dropdown-item" href="#">Bolo no Pote</a></li>
-									<li><a class="dropdown-item" href="#">Salgados</a></li>
+									<li><a class="dropdown-item" href="#">BOLO NO POTE</a></li>
+									<li><a class="dropdown-item" href="#">SALGADOS</a></li>
 								</ul>
 							</li>
 
 							<li class="nav-item division"></li>
 
 							<li class="nav-item">
-								<a href="#about" class="nav-link">Sobre mim</a>
+								<a href="#about" class="nav-link">SOBRE</a>
 							</li>
 
 							<li class="nav-item division"></li>
 
 							<li class="nav-item">
-								<a href="https://wa.me/5519989859294?text=Ol%C3%A1!%20Quero%20solicitar%20um%20or%C3%A7amento..." class="nav-link nav-contact">Entre em contato agora <i class="ml-1 fa fa-whatsapp fa-1x"></i></a>
+								<a href="" class="nav-link nav-contact">CONTATO</a>
 							</li>
 						</ul>
 					</div>
@@ -102,14 +102,14 @@ body {
 }
 
 body {
-	background-color: #fff0e8;
+	background-color: #fbf2f2;
     font-family: Arial, sans-serif;
     box-sizing: unset;
 }
 
 .text-top-header {
 	text-align: center;
-	background-color: #810947;
+	background-color: #d8557b;
 	color: white;
 	padding: 2px;
 }
@@ -117,8 +117,7 @@ body {
 .denise-icon {
     display: block; 
     margin: 0 auto; 
-    margin-bottom: 20px;
-	margin-top: 20px;
+    padding: 10px;
 }
 
 
@@ -137,23 +136,14 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
     font-size: large;
-    color: rgb(59, 59, 59);
+	font-weight: bold;
+    color: rgb(0, 0, 0);
     transition: 0.3s;
-}
-
-.navbar-light .navbar-nav .nav-contact {
-    color: #9feeaf;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #dd32ab;
     transform: scale(1.1);
-}
-
-.navbar-light .navbar-nav .nav-contact:hover {
-    color: #1ad03f;
-    transition: 0.3s;
-    transform: scale(1.05);
 }
 
 .navbar-light .navbar-toggler {
@@ -163,7 +153,7 @@ body {
 
 .division {
     width: 1px;
-    background: rgb(66, 66, 66);
+    background: rgb(0, 0, 0);
     margin: 12px 12px;
 }
 </style>
