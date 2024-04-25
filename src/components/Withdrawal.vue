@@ -28,7 +28,7 @@ export default {
 #app{
     font-family: Arial, sans-serif;
     justify-content: center;
-    padding: 25px;
+    padding: 35px;
     background-color: #d8557b;
 }
 
@@ -42,6 +42,7 @@ body{
 }
 
 .card-title{
+    letter-spacing: 0.5px;
     font-weight: bold;
     padding-top: 20px;
     font-size: 30px;
@@ -49,6 +50,7 @@ body{
 }
 
 .card-text{
+    letter-spacing: 0.7px;
     font-weight: 600;
     padding-top: 20px;
     font-size: 18px;
@@ -56,6 +58,8 @@ body{
 }
 
 .btn {
+    padding: 10px 20px 10px 20px;
+    font-size: larger;
     color: white;
     background-color: #810947;
     shape-outside: none;
