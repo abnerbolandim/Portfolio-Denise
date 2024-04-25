@@ -11,7 +11,7 @@
                         <div class="card" style="">
                         <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Sabor Morango<br><span>€ 2.00</span></p>
+                                <p class="card-text">BOLO DE POTE</p>
                             </div>
                         </div>
                     </div>
@@ -19,11 +19,10 @@
                         <div class="card" style="">
                         <img src="../assets/SalgadosCard.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Caixa c/ Salgadinhos<br><span>€ 3.00</span></p>
+                                <p class="card-text">SALGADINHOS</p>
                             </div>
                         </div>
-                    </div>
-
+                    </div> 
                 </div>
             </section>
         </body>
@@ -72,28 +71,30 @@ body{
 .card{
     border-style: none;
     margin: 20px;
+    position: relative; 
+    background-color: transparent;
 }
 
 .card-img-top {
-    height: 300px; 
+    height: 500px; 
     object-fit: cover; 
-    border-radius: 30px;
+    border-radius: 10px;
     transition: 0.5s;
-}
-
-.card-img-top:hover {
-    transform: scale(1.05);
 }
 
 .card-text {
-    color: #810947;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: black; 
     text-align: center;
     font-weight: 600;
-	font-size: 17px;
-	margin-top: 5px;
-	margin-left: 10px;
-	margin-right: 10px;
-    transition: 0.5s;
+    font-size: 17px;
+    padding: 10px 20px; 
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+    width: 100%;
 }
 
 .card-text span{
@@ -101,11 +102,22 @@ body{
     font-weight: 800;
 }
 
-@media (min-width: 992px) {
+.card:hover .card-text {
+    color: white;
+    background-color: #d8557b; 
+}
+
+@media (max-width: 768px) {
 	.row {
-        margin-right: calc(2.5* var(--bs-gutter-x));
-        margin-left: calc(2.5* var(--bs-gutter-x));
+        margin-right: calc(-7.5* var(--bs-gutter-x));
+        margin-left: calc(-7.5* var(--bs-gutter-x));
 	}
 }
 
+@media (max-width: 768px) {
+	.row {
+        margin-right: calc(-0.5* var(--bs-gutter-x));
+        margin-left: calc(-0.5* var(--bs-gutter-x));
+	}
+}
 </style>

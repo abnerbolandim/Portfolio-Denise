@@ -130,7 +130,7 @@ body {
 }
 
 .dropdown-item:hover{
-	color: #dd32ab;
+	color: #ecb6dc;
 }
 
 .navbar-collapse {
@@ -149,7 +149,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: black;
+    color: #ecb6dc;
     transform: scale(1.1);
 }
 
