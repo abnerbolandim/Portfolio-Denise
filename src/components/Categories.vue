@@ -58,6 +58,7 @@ body{
 }
 
 .categories-title{
+    letter-spacing: 0.5px;
     text-align: center;
     color: #810947;
     font-size: 30px;

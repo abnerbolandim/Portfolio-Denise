@@ -40,14 +40,17 @@
 
 							<li class="nav-item division"></li>
 
+
 							<li class="nav-item">
 								<a href="#about" class="nav-link">SOBRE</a>
 							</li>
 
+
 							<li class="nav-item division"></li>
 
+
 							<li class="nav-item">
-								<a href="" class="nav-link nav-contact">CONTATO</a>
+								<a href="" class="nav-link">CONTATO</a>
 							</li>
 						</ul>
 					</div>
@@ -64,10 +67,10 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="../assets/BoloCarousel.png" class="d-block w-100" alt="...">
+						<img src="../assets/SalgadosCarousel.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="../assets/SalgadosCarousel.png" class="d-block w-100" alt="...">
+						<img src="../assets/BoloCarousel.png" class="d-block w-100" alt="...">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -102,7 +105,7 @@ body {
 }
 
 body {
-	background-color: #fbf2f2;
+	background-color: #e8dddd;
     font-family: Arial, sans-serif;
     box-sizing: unset;
 }
@@ -123,7 +126,11 @@ body {
 
 .navbar {
     width: 100%;
-	background-color: white;
+	background-color: #d8557b;
+}
+
+.dropdown-item:hover{
+	color: #dd32ab;
 }
 
 .navbar-collapse {
@@ -137,12 +144,12 @@ body {
 .navbar-light .navbar-nav .nav-link {
     font-size: large;
 	font-weight: bold;
-    color: rgb(0, 0, 0);
-    transition: 0.3s;
+    color: white;
+    transition: 0.2s;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #dd32ab;
+    color: black;
     transform: scale(1.1);
 }
 
@@ -153,7 +160,7 @@ body {
 
 .division {
     width: 1px;
-    background: rgb(0, 0, 0);
+    background: white;
     margin: 12px 12px;
 }
 </style>
