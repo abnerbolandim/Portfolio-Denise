@@ -125,9 +125,9 @@ body{
 
 
 .parallax-img {
-    background-image: url("../assets/BoloShapeDivider.jpg");
+    background-image: url("../assets/BoloShapeDivider01.jpg");
 
-    min-height: 400px; 
+    min-height: 350px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

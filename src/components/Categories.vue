@@ -6,28 +6,66 @@
                     <span >DESTAQUES</span>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-10">
-                        <div class="card" style="">
-                        <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
+                    <div class="col-10 mx-auto">
+                        <div id="carouselExampleControls" class="carousel slide d-md-none" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <div class="card">
+                                <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
                                 <p class="card-text">Sabor Morango<br><span>€ 2.00</span></p>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-10">
-                        <div class="card" style="">
-                        <img src="../assets/SalgadosCard.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
+                            </div>
+                            <div class="carousel-item">
+                            <div class="card">
+                                <img src="../assets/SalgadosCard.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
                                 <p class="card-text">Caixa c/ Salgadinhos<br><span>€ 3.00</span></p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <div class="card">
+                                <img src="../assets/BoloCard02.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text">Sabor Paçoca<br><span>€ 2.00</span></p>
+                                </div>
+                            </div>
                             </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                        </div>
                     </div>
-                    <div class="col-md-4 col-10">
-                        <div class="card" style="">
+                    <div class="col-md-4 d-md-block d-none">
+                        <div class="card">
+                        <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Sabor Morango<br><span>€ 2.00</span></p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-md-block d-none">
+                        <div class="card">
+                        <img src="../assets/SalgadosCard.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Caixa c/ Salgadinhos<br><span>€ 3.00</span></p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-md-block d-none">
+                        <div class="card">
                         <img src="../assets/BoloCard02.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Sabor Paçoca<br><span>€ 2.00</span></p>
-                            </div>
+                        <div class="card-body">
+                            <p class="card-text">Sabor Paçoca<br><span>€ 2.00</span></p>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -109,5 +147,4 @@ body{
         margin-left: calc(2.5* var(--bs-gutter-x));
 	}
 }
-
 </style>
