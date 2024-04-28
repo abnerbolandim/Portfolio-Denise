@@ -11,7 +11,7 @@
                         <div class="card" style="">
                         <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">BOLO DE POTE</p>
+                                <p class="card-text">BOLO NO POTE</p>
                             </div>
                         </div>
                     </div>
@@ -24,6 +24,7 @@
                         </div>
                     </div> 
                 </div>
+                <div class="parallax-img"></div>
             </section>
         </body>
     </div>
@@ -66,6 +67,7 @@ body{
 
 .row {
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .card{
@@ -120,4 +122,17 @@ body{
         margin-left: calc(-0.5* var(--bs-gutter-x));
 	}
 }
+
+
+.parallax-img {
+    background-image: url("../assets/BoloShapeDivider.jpg");
+
+    min-height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 </style>
+
