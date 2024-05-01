@@ -2,7 +2,7 @@
     <div id="app">
         <body>
             <section>
-                <div class="row">
+                <div class="row row01">
                     <div class="about-title">
                         <span >SOBRE MIM</span>
                     </div>
@@ -19,40 +19,43 @@
                     <div class="about-information">
                         <span class="information01">SABOR ÚNICO</span>
                         <span class="about-division"></span>
-                        <span class="information02">INGREDIENTE ÚNICO</span>
+                        <span class="information02">CASEIRAMENTE ÚNICO</span>
                         <span class="about-division"></span>
-                        <span class="information03">CASEIRAMENTE ÚNICO</span>
+                        <span class="information03">INGREDIENTE ÚNICO</span>
                     </div>
                     
                 </div>
                 <div class="row">
                     <div class="caption-image col-md-4">
+                        <div class="text"><span>Coxinha, Risole, Bolinha de queijo</span></div>
                         <div class="image-container image-container-01">
                             <div class="image image-01">
                                 <img src="../assets/BoloCard01.jpg" />
                             </div>
                             <div class="caption caption-01">
-                                TEST
+                                SABORES
                             </div>
                         </div>
                     </div>
                     <div class="caption-image col-md-4">
+                        <div class="text"><span>As melhores bases com toque especial</span></div>
                         <div class="image-container image-container-01">
                             <div class="image image-01">
                                 <img src="../assets/BoloCard01.jpg" />
                             </div>
-                            <div class="caption caption-01">
-                                TEST
+                            <div class="caption caption-02">
+                                CASEIRO
                             </div>
                         </div>
                     </div>
                     <div class="caption-image col-md-4">
+                        <div class="text"><span>Ninho, Coco, Brigadeira, Nutella, Paçoca, Morango</span></div>
                         <div class="image-container image-container-01">
                             <div class="image image-01">
                                 <img src="../assets/BoloCard01.jpg" />
                             </div>
-                            <div class="caption caption-01">
-                                TEST
+                            <div class="caption caption-03">
+                                INGREDIENTES
                             </div>
                         </div>
                     </div>
@@ -84,10 +87,10 @@ body{
     box-sizing: unset;
 }
 
-.row{
+.row01{
     max-width: 1080px;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .shape-divider{
@@ -172,51 +175,76 @@ body{
 }
 
 .image-container {
-  display: inline-block;
-  position: relative;
-  width: 300px;
-  height: 200px;
-  overflow: hidden;
-  /* background: #fff; */
-  cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    /* background: #fff; */
+    cursor: pointer;
 }
 
 .image {
-  width: 100%; 
-  height: 100%; 
-  z-index: 1;
-  transition: all .5s;
+    width: 100%; 
+    height: 100%; 
+    z-index: 1;
+    transition: all .5s;
 }
 
 
 .image img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
+/* @media (max-width: 950px) {
+    .image {
+        
+    }
+} */
+
+
+.caption-image{
+    padding: 20px;
+}
 
 .caption {
-  width: 200px;
-  height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: rgba(255, 255, 255, 0.8);
-  z-index: 2;
-  font-weight: 300;
-  transition: all .5s;
+    width: 200px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 2;
+    font-weight: 300;
+    transition: all .5s;
 }
 
 .caption-01 {
-  transform: translateY(140px);
+    transform: translate(25%, 0%);
 }
-
-/* .image-container-01:hover .image-num2 {
-  opacity: .8;
-  transform: translateY(-50%) translateY(0px);
-} */
 
 .image-container-01:hover .caption-01 {
-  transform: translateY(-37px);
-  text-align: center;
+    transform: translate(0%, -50%) translateY(-20px); 
+    text-align: center;
 }
+
+.caption-02 {
+        transform: translate(25%, 0%);
+}
+
+.image-container-01:hover .caption-02 {
+     transform: translate(25%, -50%) translateY(-20px); 
+     text-align: center;
+}
+
+.caption-03 {
+    transform: translate(25%, 0%);
+}
+
+.image-container-01:hover .caption-03 {
+     transform: translate(50%, -50%) translateY(-20px);
+     text-align: center;
+}
+
+
 </style>
