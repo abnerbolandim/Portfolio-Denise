@@ -7,7 +7,7 @@
                     <span >PRODUTOS</span>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-10">
+                    <div class="col-md-5 col-10">
                         <div class="card" style="">
                         <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -15,7 +15,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-10">
+                    <div class="col-md-5 col-10">
                         <div class="card" style="">
                         <img src="../assets/SalgadosCard.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
