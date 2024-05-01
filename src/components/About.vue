@@ -26,40 +26,15 @@
                     
                 </div>
                 <div class="row">
-                    <div class="caption-image col-md-4">
-                        <div class="text"><span>Coxinha, Risole, Bolinha de queijo</span></div>
-                        <div class="image-container image-container-01">
-                            <div class="image image-01">
-                                <img src="../assets/BoloCard01.jpg" />
-                            </div>
-                            <div class="caption caption-01">
-                                SABORES
+                    <div class="col-md-5 col-10">
+                        <div class="card" style="">
+                        <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">sa,LFDSKNFHD</p>
                             </div>
                         </div>
                     </div>
-                    <div class="caption-image col-md-4">
-                        <div class="text"><span>As melhores bases com toque especial</span></div>
-                        <div class="image-container image-container-01">
-                            <div class="image image-01">
-                                <img src="../assets/BoloCard01.jpg" />
-                            </div>
-                            <div class="caption caption-02">
-                                CASEIRO
-                            </div>
-                        </div>
-                    </div>
-                    <div class="caption-image col-md-4">
-                        <div class="text"><span>Ninho, Coco, Brigadeira, Nutella, Paçoca, Morango</span></div>
-                        <div class="image-container image-container-01">
-                            <div class="image image-01">
-                                <img src="../assets/BoloCard01.jpg" />
-                            </div>
-                            <div class="caption caption-03">
-                                INGREDIENTES
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+                </div>
                 <div class="parallax-img"></div>
             </section>
         </body>
@@ -170,6 +145,77 @@ body{
     background-size: cover;
 }
 
+.row {
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.card{
+    border-style: none;
+    margin: 20px;
+    position: relative; 
+    background-color: transparent;
+}
+
+.card-img-top {
+    height: 500px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.card-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: black; 
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px 20px; 
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.card-text span{
+    color: black;
+    font-weight: 800;
+}
+
+.card:hover .card-text {
+    color: white;
+    background-color: #d8557b; 
+}
+
+@media (max-width: 768px) {
+	.row {
+        margin-right: calc(-7.5* var(--bs-gutter-x));
+        margin-left: calc(-7.5* var(--bs-gutter-x));
+	}
+}
+
+@media (max-width: 768px) {
+	.row {
+        margin-right: calc(-0.5* var(--bs-gutter-x));
+        margin-left: calc(-0.5* var(--bs-gutter-x));
+	}
+}
+
+
+
+/* .row02{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    display: flex;
+	flex-wrap: wrap;
+
+    margin-right: calc(0.5* var(--bs-gutter-x));
+    margin-left: calc(0.5* var(--bs-gutter-x));
+}
+
 .caption-image{
     text-align: center;
 }
@@ -180,8 +226,15 @@ body{
     width: 300px;
     height: 200px;
     overflow: hidden;
-    /* background: #fff; */
     cursor: pointer;
+}
+
+@media (max-width: 991.5px) {
+    .image-container {
+        width: 500px;
+        margin-right: calc(1* var(--bs-gutter-x));
+        margin-left: calc(1* var(--bs-gutter-x));
+    }
 }
 
 .image {
@@ -195,17 +248,6 @@ body{
 .image img {
     width: 100%;
     height: auto;
-}
-
-/* @media (max-width: 950px) {
-    .image {
-        
-    }
-} */
-
-
-.caption-image{
-    padding: 20px;
 }
 
 .caption {
@@ -224,7 +266,7 @@ body{
 }
 
 .image-container-01:hover .caption-01 {
-    transform: translate(0%, -50%) translateY(-20px); 
+    transform: translate(0%, -50%) translateY(-40%); 
     text-align: center;
 }
 
@@ -233,7 +275,7 @@ body{
 }
 
 .image-container-01:hover .caption-02 {
-     transform: translate(25%, -50%) translateY(-20px); 
+     transform: translate(25%, -50%) translateY(-40%); 
      text-align: center;
 }
 
@@ -242,9 +284,9 @@ body{
 }
 
 .image-container-01:hover .caption-03 {
-     transform: translate(50%, -50%) translateY(-20px);
+     transform: translate(50%, -50%) translateY(-40%);
      text-align: center;
-}
+} */
 
 
 </style>
