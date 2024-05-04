@@ -26,7 +26,27 @@
                     
                 </div>
                 <div class="row">
-                    <div class="col-md-5 col-10">
+                    <div class="col-md-4 ">
+                        <div class="card" style="">
+                        <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">sa,LFDSKNFHD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <div class="card" style="">
+                        <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">sa,LFDSKNFHD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 ">
                         <div class="card" style="">
                         <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
