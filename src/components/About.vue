@@ -34,8 +34,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-4 ">
                         <div class="card" style="">
                         <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
@@ -44,8 +42,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-4 ">
                         <div class="card" style="">
                         <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
