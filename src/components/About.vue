@@ -30,7 +30,7 @@
                         <div class="card" style="">
                         <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">sa,LFDSKNFHD</p>
+                                <p class="card-text">ESPECIALMENTE</p>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                         <div class="card" style="">
                         <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">sa,LFDSKNFHD</p>
+                                <p class="card-text">PENSADO</p>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                         <div class="card" style="">
                         <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">sa,LFDSKNFHD</p>
+                                <p class="card-text">EM VOCÊ!</p>
                             </div>
                         </div>
                     </div>
@@ -174,18 +174,6 @@ body{
     }
 }
 
-
-.parallax-img {
-    margin-top: 50px;
-    background-image: url("../assets/BoloShapeDivider02.jpg");
-
-    min-height: 350px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .row {
     justify-content: center;
     padding-bottom: 50px;
@@ -207,7 +195,7 @@ body{
 
 .card-text {
     position: absolute;
-    top: 50%; 
+    top: 100%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     color: black; 
@@ -216,6 +204,7 @@ body{
     font-size: 17px;
     padding: 10px 20px; 
     background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
     transition: 0.3s;
     width: 100%;
 }
@@ -227,107 +216,33 @@ body{
 
 .card:hover .card-text {
     color: white;
-    background-color: #d8557b; 
+    background-color: #d8557b;
+    letter-spacing: 1.3px; 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 	.row {
         margin-right: calc(-7.5* var(--bs-gutter-x));
         margin-left: calc(-7.5* var(--bs-gutter-x));
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 	.row {
         margin-right: calc(-0.5* var(--bs-gutter-x));
         margin-left: calc(-0.5* var(--bs-gutter-x));
 	}
 }
 
+.parallax-img {
+    margin-top: 50px;
+    background-image: url("../assets/BoloShapeDivider02.jpg");
 
-
-/* .row02{
-    max-width: 1080px;
-    margin: 0 auto;
-    padding-bottom: 80px;
-    display: flex;
-	flex-wrap: wrap;
-
-    margin-right: calc(0.5* var(--bs-gutter-x));
-    margin-left: calc(0.5* var(--bs-gutter-x));
+    min-height: 350px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.caption-image{
-    text-align: center;
-}
-
-.image-container {
-    display: inline-block;
-    position: relative;
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-@media (max-width: 991.5px) {
-    .image-container {
-        width: 500px;
-        margin-right: calc(1* var(--bs-gutter-x));
-        margin-left: calc(1* var(--bs-gutter-x));
-    }
-}
-
-.image {
-    width: 100%; 
-    height: 100%; 
-    z-index: 1;
-    transition: all .5s;
-}
-
-
-.image img {
-    width: 100%;
-    height: auto;
-}
-
-.caption {
-    width: 200px;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background: rgba(255, 255, 255, 0.8);
-    z-index: 2;
-    font-weight: 300;
-    transition: all .5s;
-}
-
-.caption-01 {
-    transform: translate(25%, 0%);
-}
-
-.image-container-01:hover .caption-01 {
-    transform: translate(0%, -50%) translateY(-40%); 
-    text-align: center;
-}
-
-.caption-02 {
-        transform: translate(25%, 0%);
-}
-
-.image-container-01:hover .caption-02 {
-     transform: translate(25%, -50%) translateY(-40%); 
-     text-align: center;
-}
-
-.caption-03 {
-    transform: translate(25%, 0%);
-}
-
-.image-container-01:hover .caption-03 {
-     transform: translate(50%, -50%) translateY(-40%);
-     text-align: center;
-} */
-
 
 </style>
