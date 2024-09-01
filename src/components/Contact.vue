@@ -37,25 +37,31 @@
   </template>
   
   <script>
-  import L from 'leaflet';
-  
-  export default {
-    name: 'App',
-    mounted() {
-      
-      const map = L.map('map').setView([38.736946, -9.142685], 13); 
-  
-      
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors'
-      }).addTo(map);
-  
-      
-      L.marker([38.736946, -9.142685]).addTo(map)
-        .bindPopup('Estamos aqui em Portugal!')
-        .openPopup();
-    }
-  };
+import L from 'leaflet';
+
+export default {
+  name: 'App',
+  mounted() {
+    const map = L.map('map').setView([40.455686, -8.798811], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors',
+    }).addTo(map);
+
+    const pinIcon = L.icon({
+      iconUrl: 'https://i.imgur.com/MK4NUzI.png',
+      iconSize: [25, 25], 
+      iconAnchor: [19, 25], 
+      popupAnchor: [0, -38],
+    });
+
+    L.marker([40.455686, -8.798811], { icon: pinIcon })
+      .addTo(map)
+      .bindPopup('Estamos aqui em Praia de Mira, Portugal!')
+      .openPopup();
+  },
+};
+
   </script>
   
   <style scoped>
