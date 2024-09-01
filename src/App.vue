@@ -4,6 +4,7 @@
   <Categories/>
   <Products/>
   <About/>
+  <Contact/>
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import Withdrawal from './components/Withdrawal.vue';
 import Categories from './components/Categories.vue';
 import Products from './components/Products.vue';
 import About from './components/About.vue';
+import Contact from './components/Contact.vue';
 
 export default {
   name: 'App',
@@ -21,6 +23,7 @@ export default {
     Categories,
     Products,
     About,
+    Contact,
   }
 }
 </script>
