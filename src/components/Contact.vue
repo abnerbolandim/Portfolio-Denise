@@ -70,16 +70,19 @@ export default {
     background-color: #e8dddd;
   }
   
-.map-container {
+  .map-container {
   width: 90%; 
-  max-width: 1200px; 
-  height: 500px;
+  max-width: 1200px;
+  height: 600px;
   margin: 40px auto 20px auto; 
-  background-color: #f0f0f0; 
+  background-color: #f0f0f0;
   position: relative;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); 
+  border-radius: 20px; 
 }
 
   .footer {
+    text-align: -webkit-center;
     background-color: #e8dddd;
     padding: 20px;
     color: black;
@@ -89,6 +92,9 @@ export default {
   }
   
   .footer-container {
+    max-width: 1200px; 
+
+    text-align: center;
     display: flex;
     justify-content: space-between;
   }
@@ -103,6 +109,7 @@ export default {
   }
   
   .social-icons {
+    justify-content: center;
     display: flex;
     gap: 10px;
     margin: 10px 0;
