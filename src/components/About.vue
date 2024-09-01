@@ -119,9 +119,12 @@ body{
     padding-bottom: 15px;
 }
 
-@media (max-width: 750px) {
-    .about-text {
-        max-width: 90%;
+@media (max-width: 700px) {
+    .about-text01 {
+        max-width: 95%;
+    }
+    .about-text02 {
+        max-width: 95%;
     }
 }
 
@@ -130,25 +133,47 @@ body{
     padding-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     text-align: center;
     color: #d8557b;
     font-size: 17px;
     font-weight: 600;
+    flex-wrap: wrap; 
 }
 
-.information01{
-    padding-left: 60px;
+.about-information span {
+    margin: 7px;
+    padding: 7px 1px; 
 }
 
 .about-division {
     width: 2px;
-    height: 200%; 
+    height: 100%; 
     background: #d8557b;
-    margin: 0 12px;
     display: inline-block;
-    vertical-align: middle; 
+    vertical-align: middle;
 }
+
+.information01, .information02, .information03 {
+    padding-left: 0;
+}
+
+@media (max-width: 700px) {
+    .about-information {
+        flex-direction: column; 
+    }
+
+    .about-division {
+        width: 70%; 
+        height: 2px; 
+        margin: 12px 0; 
+    }
+
+    .about-information span {
+        padding: 1px 10px; 
+    }
+}
+
 
 .parallax-img {
     margin-top: 50px;
