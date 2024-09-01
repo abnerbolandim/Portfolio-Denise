@@ -61,18 +61,17 @@
   <style scoped>
   #app {
     font-family: Arial, sans-serif;
-    justify-content: center;
     background-color: #e8dddd;
   }
   
-  .map-container {
-  width: 70%;
-  height: 400px;
-  padding-bottom: 20px;
-  position: relative;
+.map-container {
+  width: 90%; 
+  max-width: 1200px; 
+  height: 500px;
+  margin: 40px auto 20px auto; 
   background-color: #f0f0f0; 
+  position: relative;
 }
-
 
   .footer {
     background-color: #e8dddd;
