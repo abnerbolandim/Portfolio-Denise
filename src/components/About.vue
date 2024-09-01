@@ -30,7 +30,7 @@
                         <div class="card" style="">
                         <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">ESPECIALMENTE</p>
+                                <p class="card-text text01">ESPECIALMENTE</p>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                         <div class="card" style="">
                         <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">PENSADO</p>
+                                <p class="card-text text02">PENSADO</p>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                         <div class="card" style="">
                         <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">EM VOCÊ!</p>
+                                <p class="card-text text03">EM VOCÊ!</p>
                             </div>
                         </div>
                     </div>
@@ -203,7 +203,7 @@ body{
     font-weight: 600;
     font-size: 17px;
     padding: 10px 20px; 
-    background-color: rgba(255, 255, 255, 0.7);
+    /* background-color: rgba(255, 255, 255, 0.7); */
     border-radius: 12px;
     transition: 0.3s;
     width: 100%;
