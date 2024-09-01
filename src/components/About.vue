@@ -220,6 +220,36 @@ body{
     letter-spacing: 1.3px; 
 }
 
+.card:hover .text01{
+    left: 0%;
+    position: absolute;
+    top: 80%;
+    color: rgb(255, 255, 255);
+    background-color: #d8557b;
+    letter-spacing: 1.3px;
+    transform: rotate(0deg);
+}
+
+.card:hover .text02{
+    left: 0%;
+    position: absolute;
+    top: 70%;
+    color: rgb(255, 255, 255);
+    background-color: #d8557b;
+    letter-spacing: 1.5px;
+    transform: rotate(0deg);
+}
+
+.card:hover .text03{
+    left: 0%;
+    position: absolute;
+    top: 80%;
+    color: rgb(255, 255, 255);
+    background-color: #d8557b;
+    letter-spacing: 1.3px;
+    transform: rotate(0deg);
+}
+
 @media (max-width: 800px) {
 	.row {
         margin-right: calc(-7.5* var(--bs-gutter-x));
