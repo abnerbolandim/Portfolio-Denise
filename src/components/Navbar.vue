@@ -90,9 +90,8 @@
 </template>
 
 <script>
-// eslint-disable-next-line
 export default {
-  name: 'NavbarComponent',  // Alterado para ser multi-palavra
+  name: 'NavbarComponent',  
 };
 </script>
 
@@ -162,4 +161,36 @@ body {
     background: white;
     margin: 12px 12px;
 }
+
+
+.carousel-inner img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+}
+
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 300px; 
+    }
+}
+
+
+@media (max-width: 576px) {
+    .carousel-inner img {
+        height: 200px; 
+    }
+
+    
+    .carousel-indicators {
+        bottom: -20px; 
+    }
+
+   
+    .carousel-control-prev, .carousel-control-next {
+        width: 30px; 
+    }
+}
+
 </style>
