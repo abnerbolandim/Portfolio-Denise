@@ -1,38 +1,40 @@
 <template>
-    <div id="app">
-        <body>
-            <section>
-                <img src="../assets/wavesOpacity.svg" class="shape-divider" alt="">
-                <div class="products-title">
-                    <span >PRODUTOS</span>
-                </div>
-                <div class="row">
-                    <div class="col-md-5 col-10">
-                        <div class="card" style="">
-                        <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">BOLO NO POTE</p>
-                            </div>
-                        </div>
+    <section id="products">
+        <div id="app">
+            <body>
+                <section>
+                    <img src="../assets/wavesOpacity.svg" class="shape-divider" alt="">
+                    <div class="products-title">
+                        <span >PRODUTOS</span>
                     </div>
-                    <div class="col-md-5 col-10">
-                        <div class="card" style="">
-                        <img src="../assets/SalgadosCard.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">SALGADINHOS</p>
+                    <div class="row">
+                        <div class="col-md-5 col-10">
+                            <div class="card" style="">
+                            <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">BOLO NO POTE</p>
+                                </div>
                             </div>
                         </div>
-                    </div> 
-                </div>
-                <div class="parallax-img"></div>
-            </section>
-        </body>
-    </div>
+                        <div class="col-md-5 col-10">
+                            <div class="card" style="">
+                            <img src="../assets/SalgadosCard.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">SALGADINHOS</p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="parallax-img"></div>
+                </section>
+            </body>
+        </div>
+    </section>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: 'ProductsComponent',
   props: {
   }
 }

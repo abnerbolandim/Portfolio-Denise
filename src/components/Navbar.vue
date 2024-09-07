@@ -33,8 +33,8 @@
 									PRODUTOS
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<li><a class="dropdown-item" href="#">BOLO NO POTE</a></li>
-									<li><a class="dropdown-item" href="#">SALGADOS</a></li>
+									<li><a class="dropdown-item" href="#products">BOLO NO POTE</a></li>
+									<li><a class="dropdown-item" href="#products">SALGADOS</a></li>
 								</ul>
 							</li>
 
@@ -50,7 +50,7 @@
 
 
 							<li class="nav-item">
-								<a href="" class="nav-link">CONTATO</a>
+								<a href="#contact" class="nav-link">CONTATO</a>
 							</li>
 						</ul>
 					</div>
@@ -90,11 +90,10 @@
 </template>
 
 <script>
+// eslint-disable-next-line
 export default {
-  name: 'App',
-  props: {
-  }
-}
+  name: 'NavbarComponent',  // Alterado para ser multi-palavra
+};
 </script>
 
 <style scoped>

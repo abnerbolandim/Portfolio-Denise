@@ -1,65 +1,67 @@
 <template>
-    <div id="app">
-        <body>
-            <section>
-                <div class="row row01">
-                    <div class="about-title">
-                        <span >SOBRE MIM</span>
-                    </div>
+    <section id="about">
+        <div id="app">
+            <body>
+                <section>
+                    <div class="row row01">
+                        <div class="about-title">
+                            <span >SOBRE MIM</span>
+                        </div>
 
-                    <div class="about-text01">
-                        <span >A DENISE Bolos & Salgados nasceu com produtos para você 
-                            experimentar e apreciar o 
-                            melhor da caseira confeitaria brasileira.</span>
-                    </div>
-                    <div class="about-text02"><span>Além do mais nossas bases, recheios, coberturas e 
-                            salgadinhos são feitas artesanalmente para que você possa 
-                            desfrutar do melhor!</span></div>
+                        <div class="about-text01">
+                            <span >A DENISE Bolos & Salgados nasceu com produtos para você 
+                                experimentar e apreciar o 
+                                melhor da caseira confeitaria brasileira.</span>
+                        </div>
+                        <div class="about-text02"><span>Além do mais nossas bases, recheios, coberturas e 
+                                salgadinhos são feitas artesanalmente para que você possa 
+                                desfrutar do melhor!</span></div>
 
-                    <div class="about-information">
-                        <span class="information01">SABOR ÚNICO</span>
-                        <span class="about-division"></span>
-                        <span class="information02">CASEIRAMENTE ÚNICO</span>
-                        <span class="about-division"></span>
-                        <span class="information03">INGREDIENTE ÚNICO</span>
+                        <div class="about-information">
+                            <span class="information01">SABOR ÚNICO</span>
+                            <span class="about-division"></span>
+                            <span class="information02">CASEIRAMENTE ÚNICO</span>
+                            <span class="about-division"></span>
+                            <span class="information03">INGREDIENTE ÚNICO</span>
+                        </div>
+                        
                     </div>
-                    
-                </div>
-                <div class="row">
-                    <div class="col-md-4 ">
-                        <div class="card" style="">
-                        <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text text01">ESPECIALMENTE</p>
+                    <div class="row">
+                        <div class="col-md-4 ">
+                            <div class="card" style="">
+                            <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text01">ESPECIALMENTE</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="card" style="">
+                            <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text02">PENSADO</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="card" style="">
+                            <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text03">EM VOCÊ!</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 ">
-                        <div class="card" style="">
-                        <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text text02">PENSADO</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 ">
-                        <div class="card" style="">
-                        <img src="../assets/BoloCard01.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text text03">EM VOCÊ!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="parallax-img"></div>
-            </section>
-        </body>
-    </div>
+                    <div class="parallax-img"></div>
+                </section>
+            </body>
+        </div>
+    </section>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: 'AboutComponent',
   props: {
   }
 }

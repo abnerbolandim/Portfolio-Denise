@@ -1,4 +1,5 @@
 <template>
+  <section id="contact">
     <div id="app">
       <!-- Mapa do Leaflet -->
       <div id="map" class="map-container"></div>
@@ -34,35 +35,41 @@
         </div>
       </footer>
     </div>
-  </template>
+  </section>
+</template>
   
   <script>
-import L from 'leaflet';
 
-export default {
-  name: 'App',
-  mounted() {
-    const map = L.map('map').setView([40.455686, -8.798811], 13);
+  import L from 'leaflet';
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap contributors',
-    }).addTo(map);
+    export default {
+     
+      name: 'ContactComponent',
+      mounted() {
+        const map = L.map('map').setView([40.455686, -8.798811], 13);
 
-    const pinIcon = L.icon({
-      iconUrl: 'https://i.imgur.com/MK4NUzI.png',
-      iconSize: [25, 25], 
-      iconAnchor: [19, 25], 
-      popupAnchor: [0, -38],
-    });
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '© OpenStreetMap contributors',
+        }).addTo(map);
 
-    L.marker([40.455686, -8.798811], { icon: pinIcon })
-      .addTo(map)
-      .bindPopup('Estamos aqui em Praia de Mira, Portugal!')
-      .openPopup();
-  },
-};
+        const pinIcon = L.icon({
+          iconUrl: 'https://i.imgur.com/MK4NUzI.png',
+          iconSize: [25, 25], 
+          iconAnchor: [19, 25], 
+          popupAnchor: [0, -38],
+        });
 
+        L.marker([40.455686, -8.798811], { icon: pinIcon })
+          .addTo(map)
+          .bindPopup('Estamos aqui em Praia de Mira, Portugal!')
+          .openPopup();
+      },
+    };
+
+
+    
   </script>
+
   
   <style scoped>
   #app {
