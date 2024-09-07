@@ -17,11 +17,11 @@
           <div class="footer-section links-section">
             <h4>HOME PAGE</h4>
             <ul>
-              <li><a href="#">INÍCIO</a></li>
-              <li><a href="#">PRODUTOS</a></li>
-              <li><a href="#">SOBRE</a></li>
-              <li><a href="#">LOCALIZAÇÃO</a></li>
-              <li><a href="#">CONTATO</a></li>
+              <li><a href="#navbar">INÍCIO</a></li>
+              <li><a href="#products">PRODUTOS</a></li>
+              <li><a href="#about">SOBRE</a></li>
+              <li><a href="#contact">LOCALIZAÇÃO</a></li>
+              <li><a href="#contact">CONTATO</a></li>
             </ul>
           </div>
           <div class="footer-section contact-section">
