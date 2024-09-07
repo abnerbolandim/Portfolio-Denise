@@ -33,7 +33,7 @@ export default {
 }
 
 body{
-        font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
     box-sizing: unset;
 }
 
@@ -41,7 +41,7 @@ body{
     background-color: #fbf2f2;
 }
 
-.card-title{
+.card-title {
     letter-spacing: 0.5px;
     font-weight: bold;
     padding-top: 20px;
@@ -49,12 +49,45 @@ body{
     color: #810947;
 }
 
-.card-text{
+.card-text {
     letter-spacing: 0.7px;
     font-weight: 600;
     padding-top: 20px;
     font-size: 18px;
     color: #810947;
+}
+
+
+@media (max-width: 992px) {
+    .card-title {
+        font-size: 26px;
+    }
+
+    .card-text {
+        font-size: 16px; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 22px; 
+    }
+
+    .card-text {
+        font-size: 14px; 
+    }
+}
+
+
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 20px; 
+    }
+
+    .card-text {
+        font-size: 12px; 
+    }
 }
 
 .btn {
